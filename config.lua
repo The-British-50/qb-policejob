@@ -306,7 +306,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 5,
-            authorizedJobGrades = {3, 4, 6, 7}
+            authorizedJobGrades = {3, 4, 5, 6, 7}
         },
         [5] = {
             name = "weapon_nightstick",
@@ -351,7 +351,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 10,
-            authorizedJobGrades = {3, 4, 6, 7}
+            authorizedJobGrades = {3, 4, 5, 6, 7}
         },
         [10] = {
             name = "handcuffs",
