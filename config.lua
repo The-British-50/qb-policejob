@@ -103,14 +103,14 @@ Config.AuthorizedVehicles = {
 	-- Grade 0 PCSO
 	[0] = {
         ["policetrans"] = "Mercedes Sprinter Prisoner van",
+        ["BX64FTP"] = "General Patrol Focus",
 	},
 	-- Grade 1 ERPT
 	[1] = {
-        ["BX64FTP"] = "Patrol Focus 1",
-        ["BX65DZC"] = "Patrol Focus 2",
-        ["area7"] = "Patrol BMW",
-        ["cid4"] = "CID BMW M135i",
-        ["csitransit"] = "CSI Ford Transit",
+        ["BX65DZC"] = "General Patrol Focus",
+        ["area7"] = "General Patrol BMW",
+        ["cid4"] = "Unmarked BMW M135i",
+        ["csitransit"] = "Ford Transit CSI",
 	},
 	-- Grade 2 RPTC
 	[2] = {
@@ -122,18 +122,18 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 3 CID
 	[3] = {
-		["GX18"] = "Unmarked Volvo V70",
-        ["cid1"] = "CID BMW 5 Series",
-        ["GX14"] = "Unmarked Audi S4",
-        ["cid5"] = "CID Range Rover Vogue",
-        ["cid3"] = "CID Skoda Octavia",
+		["GX18"] = "Volvo V70",
+        ["cid1"] = "BMW 5 Series",
+        ["GX14"] = "Audi S4",
+        ["cid5"] = "Range Rover Vogue",
+        ["cid3"] = "Skoda Octavia",
 	},
     -- Grade 4 AFO
 	[4] = {
-		["ARV4"] = "ARV 2015 BMW X5 2",
-        ["ARV5"] = "ARV 2016 Unmarked BMW X5",
+		["ARV4"] = "2015 BMW X5 2",
+        ["ARV5"] = "2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
-        ["BX21AWM"] = "ARV 2021 Volvo XC90",
+        ["BX21AWM"] = "2021 Volvo XC90",
 	},
     -- Grade 5 DAC
     [5] = {
