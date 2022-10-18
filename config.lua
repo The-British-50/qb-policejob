@@ -241,8 +241,8 @@ Config.CarItems = {
         slot = 2,
     },
     [3] = {
-        name = "police_stormram",
-        amount = 2,
+        name = "defib",
+        amount = 1,
         info = {},
         type = "item",
         slot = 3,
