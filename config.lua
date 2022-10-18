@@ -1,10 +1,10 @@
 Config = {}
 
 Config.Objects = {
-    ["cone"] = {model = `prop_roadcone02a`, freeze = false},
-    ["barrier"] = {model = `prop_barrier_work06a`, freeze = true},
-    ["roadsign"] = {model = `prop_snow_sign_road_06g`, freeze = true},
-    ["tent"] = {model = `prop_gazebo_03`, freeze = true},
+    ["cone"] = {model = `prop_ukoh_cone`, freeze = false},
+    ["accident"] = {model = `prop_ukoh_policeaccident`, freeze = true},
+    ["slow"] = {model = `prop_ukoh_policeslow`, freeze = true},
+    ["tent"] = {model = `prop_ukoh_forensictent`, freeze = true},
     ["light"] = {model = `prop_worklight_03b`, freeze = true},
 }
 
