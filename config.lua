@@ -1,10 +1,10 @@
 Config = {}
 
 Config.Objects = {
-    ["cone"] = {model = `prop_ukoh_cone`, freeze = false},
-    ["accident"] = {model = `prop_ukoh_policeaccident`, freeze = true},
-    ["slow"] = {model = `prop_ukoh_policeslow`, freeze = true},
-    ["tent"] = {model = `prop_ukoh_forensictent`, freeze = true},
+    ["cone"] = {model = `ukoh_cone`, freeze = false},
+    ["accident"] = {model = `ukoh_policeaccident`, freeze = true},
+    ["slow"] = {model = `ukoh_policeslow`, freeze = true},
+    ["tent"] = {model = `ukoh_forensictent`, freeze = true},
     ["light"] = {model = `prop_worklight_03b`, freeze = true},
 }
 
