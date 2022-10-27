@@ -186,6 +186,7 @@ Config.AuthorizedVehicles = {
 	},
         --Commissioner
     [8] = {
+        ["rpug31"] = "RTPC BMW 5 Series Pursuit",
         ["BX64FTP"] = "Patrol Focus 1",
         ["BX65DZC"] = "Patrol Focus 2",
         ["area7"] = "Patrol BMW",
