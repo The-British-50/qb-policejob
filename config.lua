@@ -1,10 +1,10 @@
 Config = {}
 
 Config.Objects = {
-    ["cone"] = {model = `prop_ukoh_cone`, freeze = false},
-    ["accident"] = {model = `prop_ukoh_policeaccident`, freeze = true},
-    ["slow"] = {model = `prop_ukoh_policeslow`, freeze = true},
-    ["tent"] = {model = `prop_ukoh_forensictent`, freeze = true},
+    ["cone"] = {model = `ukoh_cone`, freeze = false},
+    ["accident"] = {model = `ukoh_policeaccident`, freeze = true},
+    ["slow"] = {model = `ukoh_policeslow`, freeze = true},
+    ["tent"] = {model = `ukoh_forensictent`, freeze = true},
     ["light"] = {model = `prop_worklight_03b`, freeze = true},
 }
 
@@ -135,8 +135,15 @@ Config.AuthorizedVehicles = {
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
         ["BX21AWM"] = "2021 Volvo XC90",
 	},
-    -- Grade 5 DAC
+    -- Grade 5 AFO/NPAS
     [5] = {
+		["ARV4"] = "2015 BMW X5 2",
+        ["ARV5"] = "2016 Unmarked BMW X5",
+        ["RJ71AJV"] = "Unmarked BMW 5s Estate",
+        ["BX21AWM"] = "2021 Volvo XC90",
+	},
+    -- Grade 5 DAC
+    [6] = {
 		["BX64FTP"] = "Patrol Focus 1",
         ["BX65DZC"] = "Patrol Focus 2",
         ["area7"] = "Patrol BMW",
@@ -157,7 +164,7 @@ Config.AuthorizedVehicles = {
         ["BX21AWM"] = "ARV 2021 Volvo XC90",
 	},
     --  Grade 6 AC
-	[6] = {
+	[7] = {
 		["BX64FTP"] = "Patrol Focus 1",
         ["BX65DZC"] = "Patrol Focus 2",
         ["area7"] = "Patrol BMW",
@@ -178,7 +185,8 @@ Config.AuthorizedVehicles = {
         ["BX21AWM"] = "ARV 2021 Volvo XC90",
 	},
         --Commissioner
-    [7] = {
+    [8] = {
+        ["rpug31"] = "RTPC BMW 5 Series Pursuit",
         ["BX64FTP"] = "Patrol Focus 1",
         ["BX65DZC"] = "Patrol Focus 2",
         ["area7"] = "Patrol BMW",
