@@ -432,6 +432,15 @@ Config.Items = {
             type = "item",
             slot = 18,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
+        },
+        [18] = {
+            name = "taser_cartridge",
+            price = 0,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 18,
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         }
     }
 }
