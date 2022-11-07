@@ -121,7 +121,6 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 3 CID
 	[3] = {
-		["GX18"] = "Volvo V70",
         ["cid1"] = "BMW 5 Series",
         ["GX14"] = "Audi S4",
         ["cid5"] = "Range Rover Vogue",
