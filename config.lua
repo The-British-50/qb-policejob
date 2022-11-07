@@ -103,11 +103,10 @@ Config.AuthorizedVehicles = {
 	-- Grade 0 PCSO
 	[0] = {
         ["policetrans"] = "Mercedes Sprinter Prisoner van",
-        ["BX64FTP"] = "General Patrol Focus",
+        ["area7"] = "General Patrol BMW",
 	},
 	-- Grade 1 ERPT
 	[1] = {
-        ["BX65DZC"] = "General Patrol Focus",
         ["area7"] = "General Patrol BMW",
         ["cid4"] = "Unmarked BMW M135i",
         ["csitransit"] = "Ford Transit CSI",
@@ -130,10 +129,8 @@ Config.AuthorizedVehicles = {
 	},
     -- Grade 4 AFO
 	[4] = {
-		["ARV4"] = "2015 BMW X5 2",
-        ["ARV5"] = "2016 Unmarked BMW X5",
+		["tourag"] = "VW Tourag ARV",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
-        ["BX21AWM"] = "2021 Volvo XC90",
 	},
     -- Grade 5 AFO/NPAS
     [5] = {
