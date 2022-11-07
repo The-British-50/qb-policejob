@@ -139,8 +139,6 @@ Config.AuthorizedVehicles = {
 	},
     -- Grade 5 DAC
     [6] = {
-		["BX64FTP"] = "Patrol Focus 1",
-        ["BX65DZC"] = "Patrol Focus 2",
         ["area7"] = "Patrol BMW",
         ["cid4"] = "CID BMW M135i",
         ["abtp1"] = "BTP BMW X5",
@@ -148,20 +146,15 @@ Config.AuthorizedVehicles = {
         ["abtp3"] = "BTP Octavia VRS",
         ["abtp4"] = "BTP Volvo XC90",
         ["abtp5"] = "BTP Range Rover",
-        ["GX18"] = "Unmarked Volvo V70",
         ["cid1"] = "CID BMW 5 Series",
-        ["GX14"] = "Unmarked Audi S4",
         ["cid5"] = "CID Range Rover Vogue",
         ["cid3"] = "CID Skoda Octavia",
         ["ARV4"] = "ARV 2015 BMW X5 2",
         ["ARV5"] = "ARV 2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
-        ["BX21AWM"] = "ARV 2021 Volvo XC90",
 	},
     --  Grade 6 AC
 	[7] = {
-		["BX64FTP"] = "Patrol Focus 1",
-        ["BX65DZC"] = "Patrol Focus 2",
         ["area7"] = "Patrol BMW",
         ["cid4"] = "CID BMW M135i",
         ["abtp1"] = "BTP BMW X5",
@@ -169,21 +162,16 @@ Config.AuthorizedVehicles = {
         ["abtp3"] = "BTP Octavia VRS",
         ["abtp4"] = "BTP Volvo XC90",
         ["abtp5"] = "BTP Range Rover",
-        ["GX18"] = "Unmarked Volvo V70",
         ["cid1"] = "CID BMW 5 Series",
-        ["GX14"] = "Unmarked Audi S4",
         ["cid5"] = "CID Range Rover Vogue",
         ["cid3"] = "CID Skoda Octavia",
         ["ARV4"] = "ARV 2015 BMW X5 2",
         ["ARV5"] = "ARV 2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
-        ["BX21AWM"] = "ARV 2021 Volvo XC90",
 	},
         --Commissioner
     [8] = {
         ["rpug31"] = "RTPC BMW 5 Series Pursuit",
-        ["BX64FTP"] = "Patrol Focus 1",
-        ["BX65DZC"] = "Patrol Focus 2",
         ["area7"] = "Patrol BMW",
         ["cid4"] = "CID BMW M135i",
         ["abtp1"] = "BTP BMW X5",
@@ -191,15 +179,12 @@ Config.AuthorizedVehicles = {
         ["abtp3"] = "BTP Octavia VRS",
         ["abtp4"] = "BTP Volvo XC90",
         ["abtp5"] = "BTP Range Rover",
-        ["GX18"] = "Unmarked Volvo V70",
         ["cid1"] = "CID BMW 5 Series",
-        ["GX14"] = "Unmarked Audi S4",
         ["cid5"] = "CID Range Rover Vogue",
         ["cid3"] = "CID Skoda Octavia",
         ["ARV4"] = "ARV 2015 BMW X5 2",
         ["ARV5"] = "ARV 2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
-        ["BX21AWM"] = "ARV 2021 Volvo XC90",
 	}
 }
 
