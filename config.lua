@@ -137,10 +137,8 @@ Config.AuthorizedVehicles = {
 	},
     -- Grade 5 AFO/NPAS
     [5] = {
-		["ARV4"] = "2015 BMW X5 2",
-        ["ARV5"] = "2016 Unmarked BMW X5",
+        ["tourag"] = "VW Tourag ARV",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
-        ["BX21AWM"] = "2021 Volvo XC90",
 	},
     -- Grade 5 DAC
     [6] = {
