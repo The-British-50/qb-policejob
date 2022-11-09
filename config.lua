@@ -32,10 +32,10 @@ Config.Locations = {
         [1] = vector3(436.68, -1007.42, 27.32),
         [2] = vector3(-436.14, 5982.63, 31.34),
     },
-    --[[["helicopter"] = {
+    ["helicopter"] = {
         [1] = vector4(449.168, -981.325, 43.691, 87.234),
         [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
-    },]]--
+    },
     ["armory"] = {
         [1] = vector3(452.42, -980.11, 30.69),
     },
@@ -113,75 +113,60 @@ Config.AuthorizedVehicles = {
 	},
 	-- Grade 2 RPTC
 	[2] = {
-        ["abtp1"] = "BTP BMW X5",
-        ["abtp2"] = "BTP BMW 5s Estate",
-        ["abtp3"] = "BTP Octavia VRS",
-        ["abtp4"] = "BTP Volvo XC90",
-        ["abtp5"] = "BTP Range Rover",
+        ["rpug31"] = "BMW 5 Series RPU",
 	},
 	-- Grade 3 CID
 	[3] = {
         ["cid1"] = "BMW 5 Series",
-        ["GX14"] = "Audi S4",
         ["cid5"] = "Range Rover Vogue",
         ["cid3"] = "Skoda Octavia",
+        ["cid4"] = "BMW M135i",
+
 	},
     -- Grade 4 AFO
 	[4] = {
 		["tourag"] = "VW Tourag ARV",
+        ["ARV5"] = "2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
 	},
     -- Grade 5 AFO/NPAS
     [5] = {
-        ["tourag"] = "VW Tourag ARV",
+		["tourag"] = "VW Tourag ARV",
+        ["ARV5"] = "2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
 	},
     -- Grade 5 DAC
     [6] = {
+        ["tourag"] = "VW Tourag ARV",
+        ["rpug31"] = "RTPC BMW 5 Series Pursuit",
         ["area7"] = "Patrol BMW",
         ["cid4"] = "CID BMW M135i",
-        ["abtp1"] = "BTP BMW X5",
-        ["abtp2"] = "BTP BMW 5s Estate",
-        ["abtp3"] = "BTP Octavia VRS",
-        ["abtp4"] = "BTP Volvo XC90",
-        ["abtp5"] = "BTP Range Rover",
         ["cid1"] = "CID BMW 5 Series",
         ["cid5"] = "CID Range Rover Vogue",
         ["cid3"] = "CID Skoda Octavia",
-        ["ARV4"] = "ARV 2015 BMW X5 2",
-        ["ARV5"] = "ARV 2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
 	},
     --  Grade 6 AC
 	[7] = {
+        ["tourag"] = "VW Tourag ARV",
+        ["rpug31"] = "RTPC BMW 5 Series Pursuit",
         ["area7"] = "Patrol BMW",
         ["cid4"] = "CID BMW M135i",
-        ["abtp1"] = "BTP BMW X5",
-        ["abtp2"] = "BTP BMW 5s Estate",
-        ["abtp3"] = "BTP Octavia VRS",
-        ["abtp4"] = "BTP Volvo XC90",
-        ["abtp5"] = "BTP Range Rover",
         ["cid1"] = "CID BMW 5 Series",
         ["cid5"] = "CID Range Rover Vogue",
         ["cid3"] = "CID Skoda Octavia",
-        ["ARV4"] = "ARV 2015 BMW X5 2",
         ["ARV5"] = "ARV 2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
 	},
         --Commissioner
     [8] = {
+        ["tourag"] = "VW Tourag ARV",
         ["rpug31"] = "RTPC BMW 5 Series Pursuit",
         ["area7"] = "Patrol BMW",
         ["cid4"] = "CID BMW M135i",
-        ["abtp1"] = "BTP BMW X5",
-        ["abtp2"] = "BTP BMW 5s Estate",
-        ["abtp3"] = "BTP Octavia VRS",
-        ["abtp4"] = "BTP Volvo XC90",
-        ["abtp5"] = "BTP Range Rover",
         ["cid1"] = "CID BMW 5 Series",
         ["cid5"] = "CID Range Rover Vogue",
         ["cid3"] = "CID Skoda Octavia",
-        ["ARV4"] = "ARV 2015 BMW X5 2",
         ["ARV5"] = "ARV 2016 Unmarked BMW X5",
         ["RJ71AJV"] = "Unmarked BMW 5s Estate",
 	}
