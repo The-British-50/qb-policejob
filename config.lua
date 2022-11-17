@@ -199,20 +199,13 @@ Config.Radars = {
 
 Config.CarItems = {
     [1] = {
-        name = "heavyarmor",
-        amount = 2,
-        info = {},
-        type = "item",
-        slot = 1,
-    },
-    [2] = {
         name = "empty_evidence_bag",
         amount = 10,
         info = {},
         type = "item",
         slot = 2,
     },
-    [3] = {
+    [2] = {
         name = "defib",
         amount = 1,
         info = {},
@@ -266,7 +259,7 @@ Config.Items = {
             authorizedJobGrades = {3, 4, 5, 6, 7, 8}
         },
         [4] = {
-            name = "weapon_carbinerifle",
+            name = "weapon_specialcarbine",
             price = 0,
             amount = 10,
             info = {
@@ -413,7 +406,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 18,
-            authorizedJobGrades = {3, 5, 6, 7, 8}
+            authorizedJobGrades = {3, 6, 7, 8}
         }
     }
 }
