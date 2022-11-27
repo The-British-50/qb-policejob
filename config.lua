@@ -57,7 +57,7 @@ Config.Locations = {
 
 Config.ArmoryWhitelist = {}
 
-Config.PoliceHelicopter = ""
+Config.PoliceHelicopter = "npas"
 
 Config.SecurityCameras = {
     hideradar = false,
