@@ -102,73 +102,40 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0 PCSO
 	[0] = {
-        ["policetrans"] = "Mercedes Sprinter Prisoner van",
-        ["area7"] = "General Patrol BMW",
+        
 	},
 	-- Grade 1 ERPT
 	[1] = {
-        ["area7"] = "General Patrol BMW",
-        ["cid4"] = "Unmarked BMW M135i",
-        ["csitransit"] = "Ford Transit CSI",
+        
 	},
 	-- Grade 2 RPTC
 	[2] = {
-        ["rpug31"] = "BMW 5 Series RPU",
+        
 	},
 	-- Grade 3 CID
 	[3] = {
-        ["cid1"] = "BMW 5 Series",
-        ["cid5"] = "Range Rover Vogue",
-        ["cid3"] = "Skoda Octavia",
-        ["cid4"] = "BMW M135i",
+        
 
 	},
     -- Grade 4 AFO
 	[4] = {
-		["tourag"] = "VW Tourag ARV",
-        ["ARV5"] = "2016 Unmarked BMW X5",
-        ["RJ71AJV"] = "Unmarked BMW 5s Estate",
+		
 	},
     -- Grade 5 AFO/NPAS
     [5] = {
-		["tourag"] = "VW Tourag ARV",
-        ["ARV5"] = "2016 Unmarked BMW X5",
-        ["RJ71AJV"] = "Unmarked BMW 5s Estate",
+		
 	},
     -- Grade 5 DAC
     [6] = {
-        ["tourag"] = "VW Tourag ARV",
-        ["rpug31"] = "RTPC BMW 5 Series Pursuit",
-        ["area7"] = "Patrol BMW",
-        ["cid4"] = "CID BMW M135i",
-        ["cid1"] = "CID BMW 5 Series",
-        ["cid5"] = "CID Range Rover Vogue",
-        ["cid3"] = "CID Skoda Octavia",
-        ["RJ71AJV"] = "Unmarked BMW 5s Estate",
+        
 	},
     --  Grade 6 AC
 	[7] = {
-        ["tourag"] = "VW Tourag ARV",
-        ["rpug31"] = "RTPC BMW 5 Series Pursuit",
-        ["area7"] = "Patrol BMW",
-        ["cid4"] = "CID BMW M135i",
-        ["cid1"] = "CID BMW 5 Series",
-        ["cid5"] = "CID Range Rover Vogue",
-        ["cid3"] = "CID Skoda Octavia",
-        ["ARV5"] = "ARV 2016 Unmarked BMW X5",
-        ["RJ71AJV"] = "Unmarked BMW 5s Estate",
+        
 	},
         --Commissioner
     [8] = {
-        ["tourag"] = "VW Tourag ARV",
-        ["rpug31"] = "RTPC BMW 5 Series Pursuit",
-        ["area7"] = "Patrol BMW",
-        ["cid4"] = "CID BMW M135i",
-        ["cid1"] = "CID BMW 5 Series",
-        ["cid5"] = "CID Range Rover Vogue",
-        ["cid3"] = "CID Skoda Octavia",
-        ["ARV5"] = "ARV 2016 Unmarked BMW X5",
-        ["RJ71AJV"] = "Unmarked BMW 5s Estate",
+        
 	}
 }
 
