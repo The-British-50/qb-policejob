@@ -197,7 +197,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 1,
-            authorizedJobGrades = {3, 4, 5, 6, 7, 8}
+            authorizedJobGrades = {2, 3, 4, 5, 6, 7, 8}
         },
         [2] = {
             name = "weapon_stungun",
@@ -235,7 +235,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 5,
-            authorizedJobGrades = {3, 4, 5, 6, 7, 8}
+            authorizedJobGrades = {2, 3, 4, 5, 6, 7, 8}
         },
         [6] = {
             name = "handcuffs",
@@ -317,6 +317,15 @@ Config.Items = {
             type = "item",
             slot = 12,
             authorizedJobGrades = {3, 5, 6, 7, 8}
+        }
+        [14] = {
+            name = "defib",
+            price = 0,
+            amount = 20,
+            info = {},
+            type = "item",
+            slot = 13,
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         }
     }
 }
