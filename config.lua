@@ -1,10 +1,10 @@
 Config = {}
 
 Config.Objects = {
-    ["cone"] = {model = `ukoh_cone`, freeze = false},
-    ["accident"] = {model = `ukoh_policeaccident`, freeze = true},
-    ["slow"] = {model = `ukoh_policeslow`, freeze = true},
-    ["tent"] = {model = `ukoh_forensictent`, freeze = true},
+    ["cone"] = {model = `prop_ukoh_cone`, freeze = false},
+    ["accident"] = {model = `prop_ukoh_policeaccident`, freeze = true},
+    ["slow"] = {model = `prop_ukoh_policeslow`, freeze = true},
+    ["tent"] = {model = `prop_ukoh_forensictent`, freeze = true},
     ["light"] = {model = `prop_worklight_03b`, freeze = true},
 }
 
@@ -102,40 +102,39 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Grade 0 PCSO
 	[0] = {
-        
+        ["area7"] = "General Patrol BMW",
 	},
 	-- Grade 1 ERPT
 	[1] = {
-        
+        ["area7"] = "General Patrol BMW",
 	},
 	-- Grade 2 RPTC
 	[2] = {
-        
+        ["area7"] = "General Patrol BMW",
 	},
 	-- Grade 3 CID
 	[3] = {
-        
-
+        ["area7"] = "General Patrol BMW",
 	},
     -- Grade 4 AFO
 	[4] = {
-		
+		["area7"] = "General Patrol BMW",
 	},
     -- Grade 5 AFO/NPAS
     [5] = {
-		
+		["area7"] = "General Patrol BMW",
 	},
     -- Grade 5 DAC
     [6] = {
-        
+        ["area7"] = "General Patrol BMW",
 	},
     --  Grade 6 AC
 	[7] = {
-        
+        ["area7"] = "General Patrol BMW",
 	},
         --Commissioner
     [8] = {
-        
+        ["area7"] = "General Patrol BMW",
 	}
 }
 
@@ -170,14 +169,14 @@ Config.CarItems = {
         amount = 10,
         info = {},
         type = "item",
-        slot = 2,
+        slot = 1,
     },
     [2] = {
         name = "defib",
         amount = 1,
         info = {},
         type = "item",
-        slot = 3,
+        slot = 2,
     },
 }
 
@@ -252,7 +251,7 @@ Config.Items = {
             amount = 10,
             info = {},
             type = "weapon",
-            slot = 12,
+            slot = 7,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         },
         [8] = {
@@ -261,7 +260,7 @@ Config.Items = {
             amount = 10,
             info = {},
             type = "item",
-            slot = 7,
+            slot = 8,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         },
         [9] = {
@@ -270,7 +269,7 @@ Config.Items = {
             amount = 10,
             info = {},
             type = "item",
-            slot = 8,
+            slot = 9,
             authorizedJobGrades = {6, 7, 8}
         },
         [10] = {
@@ -279,7 +278,7 @@ Config.Items = {
             amount = 10,
             info = {},
             type = "item",
-            slot = 9,
+            slot = 10,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         },
         [11] = {
@@ -288,7 +287,7 @@ Config.Items = {
             amount = 10,
             info = {},
             type = "item",
-            slot = 16,
+            slot = 11,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         },
         [12] = {
@@ -297,7 +296,7 @@ Config.Items = {
             amount = 10,
             info = {},
             type = "item",
-            slot = 10,
+            slot = 12,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         },
         [13] = {
@@ -306,7 +305,7 @@ Config.Items = {
             amount = 20,
             info = {},
             type = "item",
-            slot = 11,
+            slot = 13,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         },
         [14] = {
@@ -315,16 +314,16 @@ Config.Items = {
             amount = 20,
             info = {},
             type = "item",
-            slot = 12,
+            slot = 14,
             authorizedJobGrades = {3, 5, 6, 7, 8}
-        }
-        [14] = {
+        },
+        [15] = {
             name = "defib",
             price = 0,
             amount = 20,
             info = {},
             type = "item",
-            slot = 13,
+            slot = 15,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8}
         }
     }
