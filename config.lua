@@ -189,7 +189,7 @@ Config.Items = {
             price = 0,
             amount = 20,
             info = {
-                serie = "MET",
+                serie = "",
                 attachments = {
                     {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
                 }
@@ -199,11 +199,11 @@ Config.Items = {
             authorizedJobGrades = {2, 3, 5, 6, 7, 8, 9}
         },
         [2] = {
-            name = "weapon_SMG",
+            name = "weapon_smg",
             price = 0,
             amount = 20,
             info = {
-                serie = "MET",
+                serie = "",
                 attachments = {
                     {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
                 }
