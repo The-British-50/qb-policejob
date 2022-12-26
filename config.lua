@@ -205,7 +205,9 @@ Config.Items = {
             info = {
                 serie = "",
                 attachments = {
-                    {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
+                    {component = "smg_scope", label = "Scope"},
+                    {component = "smg_extendedclip", label = "Extended Clip"},
+                    {component = "weapontint_lspd", label = "Police Tint"},
                 }
             },
             type = "weapon",
