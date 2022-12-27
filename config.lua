@@ -205,10 +205,8 @@ Config.Items = {
             info = {
                 serie = "",
                 attachments = {
-                    {component = "smg_scope", label = "Scope"},
-                    {component = "smg_extendedclip", label = "Extended Clip"},
-                    {component = "weapontint_lspd", label = "Police Tint"},
-                }
+                    {component = "COMPONENT_AT_AR_FLSH", label = "Flashlight"},
+                },
             },
             type = "weapon",
             slot = 2,
