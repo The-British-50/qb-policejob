@@ -365,6 +365,7 @@ RegisterNetEvent('police:client:ImpoundVehicle', function(fullImpound, price)
                     Wait(100)
                 end
                 QBCore.Functions.DeleteVehicle(vehicle)
+                TriggerServerEvent('cd_garage:RemovePersistentVehicles', exports['cd_garage']:GetPlate(vehicle))
                 TriggerEvent('QBCore:Notify', Lang:t('success.impounded'), 'success')
                 ClearPedTasks(ped)
             end, function() -- Play When Cancel
@@ -651,6 +652,7 @@ local function impound()
                 if IsPedInAnyVehicle(PlayerPedId(), false) then
                     if IsControlJustReleased(0, 38) then
                         QBCore.Functions.DeleteVehicle(GetVehiclePedIsIn(PlayerPedId()))
+                        TriggerServerEvent('cd_garage:RemovePersistentVehicles', exports['cd_garage']:GetPlate(vehicle))
                         break
                     end
                 end
@@ -671,6 +673,7 @@ local function garage()
                 if IsPedInAnyVehicle(PlayerPedId(), false) then
                     if IsControlJustReleased(0, 38) then
                         QBCore.Functions.DeleteVehicle(GetVehiclePedIsIn(PlayerPedId()))
+                        TriggerServerEvent('cd_garage:RemovePersistentVehicles', exports['cd_garage']:GetPlate(vehicle))
                         break
                     end
                 end
