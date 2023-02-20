@@ -685,6 +685,22 @@ local function garage()
     end)
 end
 
+-- Warrant Card
+local function SetWarrantData()
+    for k,v in pairs(Config.Items.items) do
+        if v.name == "warrant_card" then
+            math.randomseed(GetGameTimer())
+            PlayerData = QBCore.Functions.GetPlayerData()
+            Config.Items.items[k].info = {
+                number = math.random(10101,19999),
+                firstname = PlayerData.charinfo.firstname,
+                lastname = PlayerData.charinfo.lastname,
+                jobgrade = PlayerData.job.grade.name
+            }
+        end
+    end
+end
+
 if Config.UseTarget then
     CreateThread(function()
         -- Toggle Duty
