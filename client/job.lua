@@ -471,6 +471,7 @@ RegisterNetEvent('qb-police:client:scanFingerPrint', function()
 end)
 
 RegisterNetEvent('qb-police:client:openArmoury', function()
+    SetWarrantData()
     local authorizedItems = {
         label = Lang:t('menu.pol_armory'),
         slots = 30,
@@ -880,6 +881,22 @@ else
             exports['qb-core']:HideText()
         end
     end)
+
+    -- Warrant card
+    local function SetWarrantData()
+        for k,v in pairs(Config.Items.items) do
+            if v.name == "warrant_card" then
+                math.randomseed(GetGameTimer())
+                PlayerData = QBCore.Functions.GetPlayerData()
+                Config.Items.items[k].info = {
+                    number = math.random(10101,19999),
+                    firstname = PlayerData.charinfo.firstname,
+                    lastname = PlayerData.charinfo.lastname,
+                    jobgrade = PlayerData.job.grade.name
+                }
+            end
+        end
+    end
 
     -- Fingerprints
     local fingerprintZones = {}
