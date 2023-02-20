@@ -348,15 +348,6 @@ Config.Items = {
             type = "item",
             slot = 17,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-        },
-        [18] = {
-            name = "warrant_card",
-            price = 0,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 18,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         }
     }
 }
