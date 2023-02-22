@@ -199,6 +199,20 @@ Config.Items = {
             authorizedJobGrades = {2, 3, 5, 6, 7, 8, 9}
         },
         [2] = {
+            name = "weapon_pistol",
+            price = 0,
+            amount = 20,
+            info = {
+                serie = "",
+                attachments = {
+                    {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
+                }
+            },
+            type = "weapon",
+            slot = 2,
+            authorizedJobGrades = {2, 3, 5, 6, 7, 8, 9}
+        },
+        [3] = {
             name = "weapon_smg",
             price = 0,
             amount = 20,
@@ -209,10 +223,10 @@ Config.Items = {
                 },
             },
             type = "weapon",
-            slot = 2,
+            slot = 3,
             authorizedJobGrades = {6, 7, 8, 9}
         },
-        [3] = {
+        [4] = {
             name = "weapon_stungun",
             price = 0,
             amount = 20,
@@ -220,38 +234,29 @@ Config.Items = {
                 serie = "",
             },
             type = "weapon",
-            slot = 3,
+            slot = 4,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
-        [4] = {
+        [5] = {
             name = "weapon_nightstick",
             price = 0,
             amount = 10,
             info = {},
             type = "weapon",
-            slot = 4,
+            slot = 5,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
-        [5] = {
+        [6] = {
             name = "taser_cartridge",
             price = 0,
             amount = 250,
             info = {},
             type = "item",
-            slot = 5,
+            slot = 6,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
-        [6] = {
-            name = "pistol_ammo",
-            price = 0,
-            amount = 200,
-            info = {},
-            type = "item",
-            slot = 6,
-            authorizedJobGrades = {2, 3, 5, 6, 7, 8, 9}
-        },
         [7] = {
-            name = "smg_ammo",
+            name = "pistol_ammo",
             price = 0,
             amount = 200,
             info = {},
@@ -260,52 +265,52 @@ Config.Items = {
             authorizedJobGrades = {2, 3, 5, 6, 7, 8, 9}
         },
         [8] = {
+            name = "smg_ammo",
+            price = 0,
+            amount = 200,
+            info = {},
+            type = "item",
+            slot = 8,
+            authorizedJobGrades = {2, 3, 5, 6, 7, 8, 9}
+        },
+        [9] = {
             name = "handcuffs",
             price = 0,
             amount = 20,
             info = {},
             type = "item",
-            slot = 8,
+            slot = 9,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
-        [9] = {
+        [10] = {
             name = "weapon_flashlight",
             price = 0,
             amount = 10,
             info = {},
             type = "weapon",
-            slot = 9,
+            slot = 10,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
-        [10] = {
+        [11] = {
             name = "empty_evidence_bag",
             price = 0,
             amount = 10,
             info = {},
             type = "item",
-            slot = 10,
+            slot = 11,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
-        [11] = {
+        [12] = {
             name = "police_stormram",
             price = 0,
             amount = 10,
             info = {},
             type = "item",
-            slot = 11,
+            slot = 12,
             authorizedJobGrades = {6, 7, 8, 9}
         },
-        [12] = {
-            name = "armor",
-            price = 0,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 12,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-        },
         [13] = {
-            name = "radio",
+            name = "armor",
             price = 0,
             amount = 10,
             info = {},
@@ -314,7 +319,7 @@ Config.Items = {
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
         [14] = {
-            name = "heavyarmor",
+            name = "radio",
             price = 0,
             amount = 10,
             info = {},
@@ -323,30 +328,39 @@ Config.Items = {
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
         [15] = {
-            name = "bandage",
+            name = "heavyarmor",
             price = 0,
-            amount = 20,
+            amount = 10,
             info = {},
             type = "item",
             slot = 15,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
         [16] = {
-            name = "evidence_key",
+            name = "bandage",
             price = 0,
             amount = 20,
             info = {},
             type = "item",
             slot = 16,
-            authorizedJobGrades = {3, 5, 6, 7, 8, 9}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         },
         [17] = {
-            name = "defib",
+            name = "evidence_key",
             price = 0,
             amount = 20,
             info = {},
             type = "item",
             slot = 17,
+            authorizedJobGrades = {3, 5, 6, 7, 8, 9}
+        },
+        [18] = {
+            name = "defib",
+            price = 0,
+            amount = 20,
+            info = {},
+            type = "item",
+            slot = 18,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
         }
     }
