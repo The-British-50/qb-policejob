@@ -371,6 +371,78 @@ Config.Items = {
             type = "item",
             slot = 19,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+        },
+        [20] = {
+            name = "nikon",
+            price = 0,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 20,
+            authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+        },
+        [21] = {
+            name = "sdcard",
+            price = 0,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 21,
+            authorizedJobGrades = {1, 3, 4, 5, 6, 7, 8, 9}
+        },
+        [22] = {
+            name = "gsrtestkit",
+            price = 0,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 22,
+            authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+        },
+        [23] = {
+            name = "dnatestkit",
+            price = 0,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 23,
+            authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+        },
+        [24] = {
+            name = "drugtestkit",
+            price = 0,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 24,
+            authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+        },
+        [25] = {
+            name = "breathalyzer",
+            price = 0,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 25,
+            authorizedJobGrades = {3, 4, 5, 6, 7, 8, 9}
+        },
+        [26] = {
+            name = "accesstool",
+            price = 0,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 26,
+            authorizedJobGrades = {3, 4, 5, 6, 7, 8, 9}
+        },
+        [27] = {
+            name = "fingerprintreader",
+            price = 0,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 27,
+            authorizedJobGrades = {3, 4, 5, 6, 7, 8, 9}
         }
     }
 }
