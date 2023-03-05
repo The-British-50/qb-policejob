@@ -527,18 +527,7 @@ QBCore.Functions.CreateCallback('police:server:isPlayerDead', function(_, cb, pl
     cb(Player.PlayerData.metadata["isdead"])
 end)
 
-QBCore.Functions.CreateCallback('police:GetPlayerStatus', function(_, cb, playerId)
-    local Player = QBCore.Functions.GetPlayer(playerId)
-    local statList = {}
-    if Player then
-        if PlayerStatus[Player.PlayerData.source] and next(PlayerStatus[Player.PlayerData.source]) then
-            for k in pairs(PlayerStatus[Player.PlayerData.source]) do
-                statList[#statList+1] = PlayerStatus[Player.PlayerData.source][k].text
-            end
-        end
-    end
-    cb(statList)
-end)
+-- Removed police:GetPlayerStatus
 
 QBCore.Functions.CreateCallback('police:IsSilencedWeapon', function(source, cb, weapon)
     local Player = QBCore.Functions.GetPlayer(source)
