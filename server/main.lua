@@ -960,19 +960,7 @@ end)
 
 -- Removed evidence:server:ClearCasings
 
-RegisterNetEvent('evidence:server:AddCasingToInventory', function(casingId, casingInfo)
-    local src = source
-    local Player = QBCore.Functions.GetPlayer(src)
-    if Player.Functions.RemoveItem("empty_evidence_bag", 1) then
-        if Player.Functions.AddItem("filled_evidence_bag", 1, false, casingInfo) then
-            TriggerClientEvent("inventory:client:ItemBox", src, QBCore.Shared.Items["filled_evidence_bag"], "add")
-            TriggerClientEvent("evidence:client:RemoveCasing", -1, casingId)
-            Casings[casingId] = nil
-        end
-    else
-        TriggerClientEvent('QBCore:Notify', src, Lang:t("error.have_evidence_bag"), "error")
-    end
-end)
+-- Removed evidence:server:AddCasingToInventory
 
 RegisterNetEvent('police:server:showFingerprint', function(playerId)
     local src = source
