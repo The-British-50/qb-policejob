@@ -937,19 +937,7 @@ end)
 
 -- Removed evidence:server:ClearBlooddrops
 
-RegisterNetEvent('evidence:server:AddBlooddropToInventory', function(bloodId, bloodInfo)
-    local src = source
-    local Player = QBCore.Functions.GetPlayer(src)
-    if Player.Functions.RemoveItem("empty_evidence_bag", 1) then
-        if Player.Functions.AddItem("filled_evidence_bag", 1, false, bloodInfo) then
-            TriggerClientEvent("inventory:client:ItemBox", src, QBCore.Shared.Items["filled_evidence_bag"], "add")
-            TriggerClientEvent("evidence:client:RemoveBlooddrop", -1, bloodId)
-            BloodDrops[bloodId] = nil
-        end
-    else
-        TriggerClientEvent('QBCore:Notify', src, Lang:t("error.have_evidence_bag"), "error")
-    end
-end)
+-- Removed evidence:server:AddBlooddropToInventory
 
 RegisterNetEvent('evidence:server:AddFingerprintToInventory', function(fingerId, fingerInfo)
     local src = source
