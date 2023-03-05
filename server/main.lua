@@ -931,14 +931,7 @@ end)
 
 -- Removed evidence:server:UpdateStatus
 
-RegisterNetEvent('evidence:server:CreateBloodDrop', function(citizenid, bloodtype, coords)
-    local bloodId = CreateBloodId()
-    BloodDrops[bloodId] = {
-        dna = citizenid,
-        bloodtype = bloodtype
-    }
-    TriggerClientEvent("evidence:client:AddBlooddrop", -1, bloodId, citizenid, bloodtype, coords)
-end)
+-- Removed evidence:server:CreateBloodDrop
 
 RegisterNetEvent('evidence:server:CreateFingerDrop', function(coords)
     local src = source
