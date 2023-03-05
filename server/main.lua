@@ -933,13 +933,7 @@ end)
 
 -- Removed evidence:server:CreateBloodDrop
 
-RegisterNetEvent('evidence:server:CreateFingerDrop', function(coords)
-    local src = source
-    local Player = QBCore.Functions.GetPlayer(src)
-    local fingerId = CreateFingerId()
-    FingerDrops[fingerId] = Player.PlayerData.metadata["fingerprint"]
-    TriggerClientEvent("evidence:client:AddFingerPrint", -1, fingerId, Player.PlayerData.metadata["fingerprint"], coords)
-end)
+-- Removed evidence:server:CreateFingerDrop
 
 RegisterNetEvent('evidence:server:ClearBlooddrops', function(blooddropList)
     if blooddropList and next(blooddropList) then
