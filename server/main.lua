@@ -941,22 +941,7 @@ end)
 
 -- Removed evidence:server:AddFingerprintToInventory
 
-RegisterNetEvent('evidence:server:CreateCasing', function(weapon, coords)
-    local src = source
-    local Player = QBCore.Functions.GetPlayer(src)
-    local casingId = CreateCasingId()
-    local weaponInfo = QBCore.Shared.Weapons[weapon]
-    local serieNumber = nil
-    if weaponInfo then
-        local weaponItem = Player.Functions.GetItemByName(weaponInfo["name"])
-        if weaponItem then
-            if weaponItem.info and weaponItem.info ~= "" then
-                serieNumber = weaponItem.info.serie
-            end
-        end
-    end
-    TriggerClientEvent("evidence:client:AddCasing", -1, casingId, weapon, coords, serieNumber)
-end)
+-- Removed evidence:server:CreateCasing
 
 RegisterNetEvent('police:server:UpdateCurrentCops', function()
     local amount = 0
