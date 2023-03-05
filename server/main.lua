@@ -929,10 +929,7 @@ RegisterNetEvent('police:server:Impound', function(plate, fullImpound, price, bo
     end
 end)
 
-RegisterNetEvent('evidence:server:UpdateStatus', function(data)
-    local src = source
-    PlayerStatus[src] = data
-end)
+-- Removed evidence:server:UpdateStatus
 
 RegisterNetEvent('evidence:server:CreateBloodDrop', function(citizenid, bloodtype, coords)
     local bloodId = CreateBloodId()
