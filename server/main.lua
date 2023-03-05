@@ -935,14 +935,7 @@ end)
 
 -- Removed evidence:server:CreateFingerDrop
 
-RegisterNetEvent('evidence:server:ClearBlooddrops', function(blooddropList)
-    if blooddropList and next(blooddropList) then
-        for _, v in pairs(blooddropList) do
-            TriggerClientEvent("evidence:client:RemoveBlooddrop", -1, v)
-            BloodDrops[v] = nil
-        end
-    end
-end)
+-- Removed evidence:server:ClearBlooddrops
 
 RegisterNetEvent('evidence:server:AddBlooddropToInventory', function(bloodId, bloodInfo)
     local src = source
