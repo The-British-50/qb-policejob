@@ -440,23 +440,7 @@ QBCore.Commands.Add("takedrivinglicense", Lang:t("commands.drivinglicense"), {},
     end
 end)
 
-QBCore.Commands.Add("takedna", Lang:t("commands.takedna"), {{name = "id", help = Lang:t('info.player_id')}}, true, function(source, args)
-    local src = source
-    local Player = QBCore.Functions.GetPlayer(src)
-    local OtherPlayer = QBCore.Functions.GetPlayer(tonumber(args[1]))
-    if not OtherPlayer or Player.PlayerData.job.name ~= "police" or not Player.PlayerData.job.onduty then return end
-    if Player.Functions.RemoveItem("empty_evidence_bag", 1) then
-        local info = {
-            label = Lang:t('info.dna_sample'),
-            type = "dna",
-            dnalabel = DnaHash(OtherPlayer.PlayerData.citizenid)
-        }
-        if not Player.Functions.AddItem("filled_evidence_bag", 1, false, info) then return end
-        TriggerClientEvent("inventory:client:ItemBox", src, QBCore.Shared.Items["filled_evidence_bag"], "add")
-    else
-        TriggerClientEvent('QBCore:Notify', src, Lang:t("error.have_evidence_bag"), "error")
-    end
-end)
+-- Removed takedna
 
 RegisterNetEvent('police:server:SendTrackerLocation', function(coords, requestId)
     local Target = QBCore.Functions.GetPlayer(source)
