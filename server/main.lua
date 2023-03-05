@@ -958,14 +958,7 @@ RegisterNetEvent('police:server:UpdateCurrentCops', function()
     TriggerEvent('police:SetCopCount', amount)
 end)
 
-RegisterNetEvent('evidence:server:ClearCasings', function(casingList)
-    if casingList and next(casingList) then
-        for _, v in pairs(casingList) do
-            TriggerClientEvent("evidence:client:RemoveCasing", -1, v)
-            Casings[v] = nil
-        end
-    end
-end)
+-- Removed evidence:server:ClearCasings
 
 RegisterNetEvent('evidence:server:AddCasingToInventory', function(casingId, casingInfo)
     local src = source
