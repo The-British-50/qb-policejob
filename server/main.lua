@@ -208,15 +208,7 @@ QBCore.Commands.Add("callsign", Lang:t("commands.callsign"), {{name = "name", he
     Player.Functions.SetMetaData("callsign", table.concat(args, " "))
 end)
 
-QBCore.Commands.Add("clearcasings", Lang:t("commands.clear_casign"), {}, false, function(source)
-    local src = source
-    local Player = QBCore.Functions.GetPlayer(src)
-    if Player.PlayerData.job.name == "police" and Player.PlayerData.job.onduty then
-        TriggerClientEvent("evidence:client:ClearCasingsInArea", src)
-    else
-        TriggerClientEvent('QBCore:Notify', src, Lang:t("error.on_duty_police_only"), 'error')
-    end
-end)
+-- Removed clearCasings
 
 QBCore.Commands.Add("jail", Lang:t("commands.jail_player"), {}, false, function(source)
     local src = source
