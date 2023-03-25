@@ -352,7 +352,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 17,
-            authorizedJobGrades = {3, 5, 6, 7, 8, 9}
+            authorizedJobGrades = {3, 6, 7, 8, 9}
         },
         [18] = {
             name = "defib",
@@ -379,7 +379,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 20,
-            authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+            authorizedJobGrades = {3, 7, 8, 9}
         },
         [21] = {
             name = "sdcard",
@@ -388,7 +388,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 21,
-            authorizedJobGrades = {1, 3, 4, 5, 6, 7, 8, 9}
+            authorizedJobGrades = {3, 7, 8, 9}
         },
         [22] = {
             name = "gsrtestkit",
@@ -451,7 +451,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 28,
-            authorizedJobGrades = {3, 4, 5, 6, 7, 8, 9}
+            authorizedJobGrades = {3, 7, 8, 9}
         },
         [29] = {
             name = "fingerprinttape",
@@ -460,7 +460,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 29,
-            authorizedJobGrades = {3, 4, 5, 6, 7, 8, 9}
+            authorizedJobGrades = {3, 7, 8, 9}
         },
         [30] = {
             name = "mikrosil",
@@ -469,7 +469,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 30,
-            authorizedJobGrades = {3, 4, 5, 6, 7, 8, 9}
+            authorizedJobGrades = {3, 7, 8, 9}
         }
     }
 }
