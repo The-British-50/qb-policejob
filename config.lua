@@ -271,7 +271,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 8,
-            authorizedJobGrades = {2, 3, 5, 6, 7, 8, 9}
+            authorizedJobGrades = {5, 6, 7, 8, 9}
         },
         [9] = {
             name = "handcuffs",
